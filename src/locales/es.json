@@ -1,0 +1,22 @@
+{
+    "translation": {
+        "pie_chart": "Gráfico Tipo Pay",
+        "donut_chart": "Gráfico Tipo Dona",
+        "main_title": "Generación de Energía en Reino Unido Actualmente",
+        "settings": "Ajustes",
+        "chart_type": "Tipo de gráfico",
+        "pie": "Pay",
+        "donut": "Dona",
+        "see_percentage_in": "Ver porcentaje en",
+        "chart": "Gráfico",
+        "rows": "Filas",
+        "generic_error": "Oops, parece que hubo en error buscando esta data, pero no te preocupes, no es tu culpa.",
+        "lost": "Oops! Parece que estas perdido.",
+        "not_found_page": "No pudimos encontrar la pagina que estas buscando, pulsa el botón de abajo para volver al inicio.",
+        "take_back": "Volver al Inicio",
+        "individual_charts": "Gráficos Individuales",
+        "table": "Tabla",
+        "fuel": "Combustible",
+        "percentage": "Porcentaje"
+    }
+}

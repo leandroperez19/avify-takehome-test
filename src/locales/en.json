@@ -1,0 +1,22 @@
+{
+    "translation": {
+        "pie_chart": "Pie Chart",
+        "donut_chart": "Donut Chart",
+        "main_title": "Energy Generation in the UK Currently",
+        "settings": "Settings",
+        "chart_type": "Chart type",
+        "pie": "Pie",
+        "donut": "Donut",
+        "see_percentage_in": "See percentage in",
+        "chart": "Chart",
+        "rows": "Rows",
+        "generic_error": "Oops, seems there was an error while fetching this, but that's out fault, don't worry",
+        "lost": "Oops! It looks like you're lost.",
+        "not_found_page": "We couldn't find the page you were looking for. Please click the button below to return home.",
+        "take_back": "Take me back",
+        "individual_charts": "Individual Charts",
+        "fuel": "Fuel",
+        "percentage": "Percentage",
+        "table": "Table"
+    }
+}
