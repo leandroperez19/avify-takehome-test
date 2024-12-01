@@ -7,9 +7,10 @@ const Dotenv = require("dotenv-webpack");
 
 const host = "localhost";
 const port = 5173;
+const mode = process.env.MODE;
 
 module.exports = {
-    mode: "production",
+    mode: mode || "development",
     context: path.resolve(__dirname, "src"),
     target: "web",
     entry: {
@@ -18,7 +19,8 @@ module.exports = {
     output: {
         filename: "[name]-[contenthash:6].bundle.js",
         path: path.join(__dirname, "./build/www"),
-        publicPath: `/`,
+        publicPath:
+            mode && mode === "development" ? `http://${host}:${port}/` : `/`,
     },
     resolve: {
         mainFields: ["browser", "module", "main"],
