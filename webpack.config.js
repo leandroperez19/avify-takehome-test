@@ -9,7 +9,7 @@ const host = "localhost";
 const port = 5173;
 
 module.exports = {
-    mode: "development",
+    mode: "production",
     context: path.resolve(__dirname, "src"),
     target: "web",
     entry: {
@@ -18,7 +18,7 @@ module.exports = {
     output: {
         filename: "[name]-[contenthash:6].bundle.js",
         path: path.join(__dirname, "./build/www"),
-        publicPath: `http://${host}:${port}/`,
+        publicPath: `/`,
     },
     resolve: {
         mainFields: ["browser", "module", "main"],
